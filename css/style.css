@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+/*#quotes span:first-child {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}*/
