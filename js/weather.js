@@ -15,7 +15,10 @@ function onGeoOk(position) {
 }
 
 function onGeoError() {
-  alert("찾을 수 없음");
+  const error = document.querySelector("#weather span:first-child");
+  const error2 = document.querySelector("#weather span:first-child");
+  error.innerText = "에러!";
+  error2.innerText = "위치 정보를 찾을 수 없습니다.";
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
