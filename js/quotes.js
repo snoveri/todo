@@ -42,8 +42,8 @@ const quotes = [
   },
 ];
 
-const quote1 = document.querySelector("#quotes span:first-child");
-const author = document.querySelector("#quotes span:last-child");
+const quote1 = document.querySelector("#quotes div:first-child");
+const author = document.querySelector("#quotes div:last-child");
 
 const Randomquote = quotes[Math.floor(Math.random() * quotes.length)];
 

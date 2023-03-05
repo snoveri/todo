@@ -5,6 +5,10 @@ const Randomimage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.createElement("img");
 
+function createclass() {
+  bgImage.classList.add("bg");
+}
+
 bgImage.src = `img/${Randomimage}`;
 
-document.body.appendChild(bgImage);
+document.body.appendChild(bgImage, createclass());
